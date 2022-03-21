@@ -1,0 +1,158 @@
+body{
+    margin:0 ;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.myCards{
+    width: 100%;
+    display: flex;
+    /* flex-basis:30%; */
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    margin: 8rem auto;
+    padding: auto 0;
+    
+    /* margin: 0 10px;  */
+}
+.card{
+    /* flex-basis: 20%; */
+    width:22%;
+    min-height:60vh;
+    padding: 3rem 3rem;
+    box-sizing: border-box;
+    /* width:90%; */
+}
+.carImage{
+    position: relative;
+    margin-bottom: 3rem;
+}
+.fa-car-side{
+    color:hsla(0, 0%, 95%, 0.726);
+    position: absolute;
+    left: 15px;
+    bottom: -20px;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 2;
+    min-height: 180px;
+}
+.circle {
+    float: left;
+    width: 25px;
+    height: 25px;
+    clip-path: circle();
+    background: rgba(0, 0, 0, 0.2);
+}
+h1{
+    color: hsl(0, 0%, 95%);
+    font-family: Lexend Deca;
+    margin:0
+}
+.card1{
+    background-color:  hsl(31, 77%, 52%);
+}
+
+.card2{
+    background-color: hsl(184, 100%, 22%)
+
+}
+
+.card3{
+    background-color: hsl(179, 100%, 13%);;
+}
+
+.btn 
+{
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    font-size: 15px;
+    background: hsl(0, 0%, 95%);
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border:none;
+    transition: all .3s;
+    cursor: pointer;
+    
+  }
+.btn1{
+    color: hsl(31, 77%, 52%);
+}
+.btn2{
+    color: hsl(184, 100%, 22%);
+
+}
+.btn3{
+    color: hsl(179, 100%, 13%);
+}
+  
+.btn:hover {
+    background: transparent;
+    text-decoration: none;
+    color:hsl(0, 0%, 95%);
+    border: hsl(0, 0%, 95%) solid 1px ;
+  }
+/* .btn2:hover{
+    background: hsl(184, 100%, 22%);
+    text-decoration: none;
+    color:hsl(0, 0%, 95%);
+    border: hsl(0, 0%, 95%) solid 1px ;
+
+}
+.btn3:hover{
+    background: hsl(179, 100%, 13%);
+    color:hsl(0, 0%, 95%);
+    text-decoration: none;
+    border: hsl(0, 0%, 95%) solid 1px ;
+} */
+
+
+@media screen and (max-width:375px){
+
+    .myCards{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:1030px) and (min-width:768px){
+
+    .card{
+        padding: 3rem 2rem;
+        width:25%;
+    }
+}
+@media screen and (max-width:769px) and (min-width:425px){
+    .myCards{
+        flex-direction: column;
+    }
+    .card{
+        padding: 3rem 1.5rem;
+        width: 70%;
+        min-height: auto;
+        
+    }
+    p{
+        min-height: 120px;
+    }
+}
+@media screen and (max-width:425px){
+    .myCards{
+        flex-direction: column;
+    }
+    .card{
+        padding: 3rem 1.5rem;
+        width: 80%;
+        text-align: left;
+        /* text-align: center; */
+    }
+}
