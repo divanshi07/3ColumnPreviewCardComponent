@@ -81,7 +81,7 @@ h1{
     background: hsl(0, 0%, 95%);
     padding: 10px 20px 10px 20px;
     text-decoration: none;
-    border:none;
+    border:transparent solid 1px;
     transition: all .3s;
     cursor: pointer;
     
