@@ -31,8 +31,8 @@ The screenshot of the design is placed in solutionScreenshot.
 
 ### Links
 
-- Solution URL: 
-- Live Site URL: 
+- Solution URL: https://github.com/divanshi07/3ColumnPreviewCardComponent
+- Live Site URL: https://divanshi07.github.io/3ColumnPreviewCardComponent/
 
 ## My process
 
